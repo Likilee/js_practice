@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(223, 235, 231);
+}
+
+h1 {
+  color: skyblue;
+  transition: color 0.5s ease-out;
+}
+
+.clicked {
+  color: tomato;
+  transition: color 0.5s ease-out;
+}
+
+.sexy-font {
+  font-family: "Courier New", Courier, monospace;
+}
