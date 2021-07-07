@@ -1,0 +1,22 @@
+<!-- HTML 문서 내에 바로 스크립트 코드를 집어넣는 style1 은 아주 간단할 때만 사용 (거의 쓰지 마)
+스크립트를 import하는 style2는 script를 다운 받아서 caching 하기 때문에, 여러 페이지에서 동일한 스크립트를 사용하는 경우 속도의 이점이 있다. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>first</title>
+</head>
+<body>
+	<!-- style1 : inline -->
+	<script>
+		// alert("hello world");
+	</script>
+	<!-- style2 : import -->
+	<script src="js/variables.js"></script>
+	<!-- <script src="https://test.com/js/first.js"></script> // 이런식으로 URL로도 가능 -->
+</body>
+</html>
